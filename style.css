@@ -1,0 +1,1457 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: url(ImagesIndex/posterBackground.jpg);
+    background-position: justify;
+    background-attachment: fixed;
+    width: 1000px;
+    text-align: justify;
+}
+
+
+.znrPoster:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 rgb(240, 210, 45);
+}
+
+.cmrPoster:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 orangered;
+}
+
+.kalPoster:hover{
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 rgb(99, 12, 121);
+}
+
+
+.botaoKal{
+    background-color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoKal:hover {
+    background-color:darkgrey;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoKal>a{
+    color: Black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deckLathril{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckLathril:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 gold;
+}
+.deckRanar{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckRanar:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 blue;
+}
+
+
+
+/*.divClasseKal{
+    display: flex;
+}
+*/
+
+.botaoCmr{
+    background-color: rgb(115, 170, 36);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoCmr:hover {
+    background-color: rgb(247, 99, 12);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoCmr>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deckAesi{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckAesi:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 blue;
+}
+
+.deckWyleth{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckWyleth:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 red;
+}
+
+
+.botaoZnr{
+    background-color: rgb(247, 137, 74);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoZnr:hover {
+    background-color: rgb(186, 216, 10);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoZnr>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deckAnowon{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckAnowon:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 maroon;
+}
+
+.deckObuun{
+    border-radius: 5%;
+    float: inline-start;
+    margin: 10px;
+}
+.deckObuun:hover {
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 gold;
+}
+
+
+.botaoAnowon{
+    background-color: rgb(56, 56, 56);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoAnowon:hover {
+    background-color:red;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoAnowon>a{
+    color: rgb(229, 229, 229);
+    text-decoration: none;
+    font-weight: bold;
+}
+/* COLOCAR AQUI A CARTA DO ANOWON*/
+
+.botaoObuun{
+    background-color: rgb(255, 185, 0);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoObuun:hover {
+    background-color:rgb(247, 99, 12);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoObuun>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cartaObuun{
+    border-radius: 5%;
+    float: inline-start;
+    width: 50%;
+    margin: 10px;
+}
+
+.botaoAesi{
+    background-color: rgb(0, 153, 188);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoAesi:hover {
+    background-color:rgb(0, 188, 242);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoAesi>a{
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    font-weight: bold;
+}
+.cartaAesi{
+    border-radius: 5%;
+    float: inline-start;
+    width: 50%;
+    margin: 10px;
+}
+
+.botaoWyleth{
+    background-color: rgb(117, 117, 117);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoWyleth:hover {
+    background-color:black;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoWyleth>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cartaWyleth{
+    border-radius: 5%;
+    float: inline-start;
+    width: 50%;
+    margin: 10px;
+}
+
+.botaoLathril{
+    background-color: rgb(252, 225, 0);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoLathril:hover {
+    background-color:rgb(19, 161, 14);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoLathril>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cartaLathril{
+    border-radius: 5%;
+    float: inline-start;
+    width: 50%;
+    margin: 10px;
+}
+
+.botaoRanar{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    cursor: pointer;
+}
+.botaoRanar:hover {
+    background-color:rgb(240, 58, 23);
+    opacity: 1;
+    transition: all 0.5s;
+}
+.botaoRanar>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cartaRanar{
+    border-radius: 5%;
+    float: inline-start;
+    width: 50%;
+    margin: 10px;
+}
+
+
+
+
+.classAnowon{
+    display: flex;
+    position: relative;
+}
+
+.cartaAnowon{
+    border-radius: 5%;
+    float: left;
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    position: relative;
+
+ }
+
+ .square{
+    width: 48%;
+    height: 0;
+    padding-bottom: 48%; 
+    margin: 1%;
+    float: left;
+    position: relative;
+
+}
+
+.block{
+  position: absolute;
+  text-align: center;
+  background: #1a1a1a;
+  width: 100%;
+}
+ 
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+ }
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  background: #222;
+  color: #FFF;
+  text-align: left;
+  padding: 5%;
+  padding-top: 0%;
+ }
+
+
+
+
+a.tooltipAberracaoConsumidora {outline:none; }
+a.tooltipAberracaoConsumidora:hover {text-decoration:none;} 
+a.tooltipAberracaoConsumidora span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAberracaoConsumidora:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAlferesDeLancaSapos {outline:none; }
+a.tooltipAlferesDeLancaSapos:hover {text-decoration:none;} 
+a.tooltipAlferesDeLancaSapos span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAlferesDeLancaSapos:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipBandidoDeBebumtinga {outline:none; }
+a.tooltipBandidoDeBebumtinga:hover {text-decoration:none;} 
+a.tooltipBandidoDeBebumtinga span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipBandidoDeBebumtinga:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipDegoladorDeZulaport {outline:none; }
+a.tooltipDegoladorDeZulaport:hover {text-decoration:none;} 
+a.tooltipDegoladorDeZulaport span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipDegoladorDeZulaport:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipEspreitadorDoRioMarang {outline:none; }
+a.tooltipEspreitadorDoRioMarang:hover {text-decoration:none;} 
+a.tooltipEspreitadorDoRioMarang span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipEspreitadorDoRioMarang:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipEspreitadorInvisivel {outline:none; }
+a.tooltipEspreitadorInvisivel:hover {text-decoration:none;} 
+a.tooltipEspreitadorInvisivel span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipEspreitadorInvisivel:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipEsvoacadoraDoPantano {outline:none; }
+a.tooltipEsvoacadoraDoPantano:hover {text-decoration:none;} 
+a.tooltipEsvoacadoraDoPantano span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipEsvoacadoraDoPantano:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipFadaDasChaves {outline:none; }
+a.tooltipFadaDasChaves:hover {text-decoration:none;} 
+a.tooltipFadaDasChaves span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipFadaDasChaves:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipFlageloDasFrotas {outline:none; }
+a.tooltipFlageloDasFrotas:hover {text-decoration:none;} 
+a.tooltipFlageloDasFrotas span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipFlageloDasFrotas:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipGontiSenhorDaOpulencia {outline:none; }
+a.tooltipGontiSenhorDaOpulencia:hover {text-decoration:none;} 
+a.tooltipGontiSenhorDaOpulencia span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipGontiSenhorDaOpulencia:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipGuardiaoSombrioDeOona {outline:none; }
+a.tooltipGuardiaoSombrioDeOona:hover {text-decoration:none;} 
+a.tooltipGuardiaoSombrioDeOona span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipGuardiaoSombrioDeOona:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipInfiltradorPassofirme {outline:none; }
+a.tooltipInfiltradorPassofirme:hover {text-decoration:none;} 
+a.tooltipInfiltradorPassofirme span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipInfiltradorPassofirme:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraDosTurbilinos {outline:none; }
+a.tooltipLadraDosTurbilinos:hover {text-decoration:none;} 
+a.tooltipLadraDosTurbilinos span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraDosTurbilinos:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraEnigmatica {outline:none; }
+a.tooltipLadraEnigmatica:hover {text-decoration:none;} 
+a.tooltipLadraEnigmatica span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraEnigmatica:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraoDeNocao {outline:none; }
+a.tooltipLadraoDeNocao:hover {text-decoration:none;} 
+a.tooltipLadraoDeNocao span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraoDeNocao:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraoDePensamentosPlanador {outline:none; }
+a.tooltipLadraoDePensamentosPlanador:hover {text-decoration:none;} 
+a.tooltipLadraoDePensamentosPlanador span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraoDePensamentosPlanador:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraoEolicoTritao {outline:none; }
+a.tooltipLadraoEolicoTritao:hover {text-decoration:none;} 
+a.tooltipLadraoEolicoTritao span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraoEolicoTritao:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLadraoMestre {outline:none; }
+a.tooltipLadraoMestre:hover {text-decoration:none;} 
+a.tooltipLadraoMestre span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLadraoMestre:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLaminaSinuosa {outline:none; }
+a.tooltipLaminaSinuosa:hover {text-decoration:none;} 
+a.tooltipLaminaSinuosa span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLaminaSinuosa:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLazavMentorDosDimir {outline:none; }
+a.tooltipLazavMentorDosDimir:hover {text-decoration:none;} 
+a.tooltipLazavMentorDosDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLazavMentorDosDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipOonaRainhaDasFadinas {outline:none; }
+a.tooltipOonaRainhaDasFadinas:hover {text-decoration:none;} 
+a.tooltipOonaRainhaDasFadinas span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipOonaRainhaDasFadinas:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPariaMorfoloide {outline:none; }
+a.tooltipPariaMorfoloide:hover {text-decoration:none;} 
+a.tooltipPariaMorfoloide span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPariaMorfoloide:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPrimordialSepulcral {outline:none; }
+a.tooltipPrimordialSepulcral:hover {text-decoration:none;} 
+a.tooltipPrimordialSepulcral span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPrimordialSepulcral:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSenhorioOgro {outline:none; }
+a.tooltipSenhorioOgro:hover {text-decoration:none;} 
+a.tooltipSenhorioOgro span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSenhorioOgro:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSilfideDoVeuDaNoite {outline:none; }
+a.tooltipSilfideDoVeuDaNoite:hover {text-decoration:none;} 
+a.tooltipSilfideDoVeuDaNoite span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSilfideDoVeuDaNoite:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSyggDegoladorDoRio {outline:none; }
+a.tooltipSyggDegoladorDoRio:hover {text-decoration:none;} 
+a.tooltipSyggDegoladorDoRio span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSyggDegoladorDoRio:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSyrKonradOSisudo {outline:none; }
+a.tooltipSyrKonradOSisudo:hover {text-decoration:none;} 
+a.tooltipSyrKonradOSisudo span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSyrKonradOSisudo:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipTalassidoVigiaCosta {outline:none; }
+a.tooltipTalassidoVigiaCosta:hover {text-decoration:none;} 
+a.tooltipTalassidoVigiaCosta span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipTalassidoVigiaCosta:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipUivadorNoturno {outline:none; }
+a.tooltipUivadorNoturno:hover {text-decoration:none;} 
+a.tooltipUivadorNoturno span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipUivadorNoturno:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipVandaloFada {outline:none; }
+a.tooltipVandaloFada:hover {text-decoration:none;} 
+a.tooltipVandaloFada span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipVandaloFada:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAbracoEspinal {outline:none; }
+a.tooltipAbracoEspinal:hover {text-decoration:none;} 
+a.tooltipAbracoEspinal span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAbracoEspinal:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipComandoDeSilumgar {outline:none; }
+a.tooltipComandoDeSilumgar:hover {text-decoration:none;} 
+a.tooltipComandoDeSilumgar span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipComandoDeSilumgar:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipEterificar {outline:none; }
+a.tooltipEterificar:hover {text-decoration:none;} 
+a.tooltipEterificar span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipEterificar:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipExtrairDasTrevas {outline:none; }
+a.tooltipExtrairDasTrevas:hover {text-decoration:none;} 
+a.tooltipExtrairDasTrevas span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipExtrairDasTrevas:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipFatoOuFiccao {outline:none; }
+a.tooltipFatoOuFiccao:hover {text-decoration:none;} 
+a.tooltipFatoOuFiccao span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipFatoOuFiccao:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipHomicidio {outline:none; }
+a.tooltipHomicidio:hover {text-decoration:none;} 
+a.tooltipHomicidio span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipHomicidio:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipIdentidadeRoubada {outline:none; }
+a.tooltipIdentidadeRoubada:hover {text-decoration:none;} 
+a.tooltipIdentidadeRoubada span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipIdentidadeRoubada:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipManipulacaoDeAlma {outline:none; }
+a.tooltipManipulacaoDeAlma:hover {text-decoration:none;} 
+a.tooltipManipulacaoDeAlma span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipManipulacaoDeAlma:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipMelodiaDistante {outline:none; }
+a.tooltipMelodiaDistante:hover {text-decoration:none;} 
+a.tooltipMelodiaDistante span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipMelodiaDistante:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipMultidaoInfame {outline:none; }
+a.tooltipMultidaoInfame:hover {text-decoration:none;} 
+a.tooltipMultidaoInfame span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipMultidaoInfame:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipNoRastroDeGarruk {outline:none; }
+a.tooltipNoRastroDeGarruk:hover {text-decoration:none;} 
+a.tooltipNoRastroDeGarruk span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipNoRastroDeGarruk:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipObedienciaSemFim {outline:none; }
+a.tooltipObedienciaSemFim:hover {text-decoration:none;} 
+a.tooltipObedienciaSemFim span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipObedienciaSemFim:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPassagemParaAMaravilha {outline:none; }
+a.tooltipPassagemParaAMaravilha:hover {text-decoration:none;} 
+a.tooltipPassagemParaAMaravilha span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPassagemParaAMaravilha:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPrecoDaFama {outline:none; }
+a.tooltipPrecoDaFama:hover {text-decoration:none;} 
+a.tooltipPrecoDaFama span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPrecoDaFama:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipRessurgirDaCova {outline:none; }
+a.tooltipRessurgirDaCova:hover {text-decoration:none;} 
+a.tooltipRessurgirDaCova span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipRessurgirDaCova:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipRetornoPredestinado {outline:none; }
+a.tooltipRetornoPredestinado:hover {text-decoration:none;} 
+a.tooltipRetornoPredestinado span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipRetornoPredestinado:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSelecaoNecromantica {outline:none; }
+a.tooltipSelecaoNecromantica:hover {text-decoration:none;} 
+a.tooltipSelecaoNecromantica span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSelecaoNecromantica:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAdagaDeAcoSussurrante {outline:none; }
+a.tooltipAdagaDeAcoSussurrante:hover {text-decoration:none;} 
+a.tooltipAdagaDeAcoSussurrante span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAdagaDeAcoSussurrante:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAglomeradoDeOssos {outline:none; }
+a.tooltipAglomeradoDeOssos:hover {text-decoration:none;} 
+a.tooltipAglomeradoDeOssos span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAglomeradoDeOssos:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAnelSolar {outline:none; }
+a.tooltipAnelSolar:hover {text-decoration:none;} 
+a.tooltipAnelSolar span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAnelSolar:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipChaveRunicaDimir {outline:none; }
+a.tooltipChaveRunicaDimir:hover {text-decoration:none;} 
+a.tooltipChaveRunicaDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipChaveRunicaDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipEsferaDoComandante {outline:none; }
+a.tooltipEsferaDoComandante:hover {text-decoration:none;} 
+a.tooltipEsferaDoComandante span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipEsferaDoComandante:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipGarraDeFoice {outline:none; }
+a.tooltipGarraDeFoice:hover {text-decoration:none;} 
+a.tooltipGarraDeFoice span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipGarraDeFoice:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLaminaDeHeranca {outline:none; }
+a.tooltipLaminaDeHeranca:hover {text-decoration:none;} 
+a.tooltipLaminaDeHeranca span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLaminaDeHeranca:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipLaminaNegraReforjada {outline:none; }
+a.tooltipLaminaNegraReforjada:hover {text-decoration:none;} 
+a.tooltipLaminaNegraReforjada span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipLaminaNegraReforjada:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipMedalhaoDimir {outline:none; }
+a.tooltipMedalhaoDimir:hover {text-decoration:none;} 
+a.tooltipMedalhaoDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipMedalhaoDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipObeliscoDeUrd {outline:none; }
+a.tooltipObeliscoDeUrd:hover {text-decoration:none;} 
+a.tooltipObeliscoDeUrd span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipObeliscoDeUrd:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPedraDaMente {outline:none; }
+a.tooltipPedraDaMente:hover {text-decoration:none;} 
+a.tooltipPedraDaMente span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPedraDaMente:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSineteArcano {outline:none; }
+a.tooltipSineteArcano:hover {text-decoration:none;} 
+a.tooltipSineteArcano span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSineteArcano:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipSineteDimir {outline:none; }
+a.tooltipSineteDimir:hover {text-decoration:none;} 
+a.tooltipSineteDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipSineteDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipInteligenciaMilitar {outline:none; }
+a.tooltipInteligenciaMilitar:hover {text-decoration:none;} 
+a.tooltipInteligenciaMilitar span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipInteligenciaMilitar:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipAquedutoDimir {outline:none; }
+a.tooltipAquedutoDimir:hover {text-decoration:none;} 
+a.tooltipAquedutoDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipAquedutoDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipIlha {outline:none; }
+a.tooltipIlha:hover {text-decoration:none;} 
+a.tooltipIlha span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipIlha:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipOssarioSubmerso {outline:none; }
+a.tooltipOssarioSubmerso:hover {text-decoration:none;} 
+a.tooltipOssarioSubmerso span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipOssarioSubmerso:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPaisagemInfinita {outline:none; }
+a.tooltipPaisagemInfinita:hover {text-decoration:none;} 
+a.tooltipPaisagemInfinita span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPaisagemInfinita:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPantano {outline:none; }
+a.tooltipPantano:hover {text-decoration:none;} 
+a.tooltipPantano span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPantano:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPassagemDoLadino {outline:none; }
+a.tooltipPassagemDoLadino:hover {text-decoration:none;} 
+a.tooltipPassagemDoLadino span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPassagemDoLadino:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipPortaoDaGuildaDimir {outline:none; }
+a.tooltipPortaoDaGuildaDimir:hover {text-decoration:none;} 
+a.tooltipPortaoDaGuildaDimir span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipPortaoDaGuildaDimir:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipRefugioDaIlhaDeJwarr {outline:none; }
+a.tooltipRefugioDaIlhaDeJwar:hover {text-decoration:none;} 
+a.tooltipRefugioDaIlhaDeJwar span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipRefugioDaIlhaDeJwar:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipRemansoFunesto {outline:none; }
+a.tooltipRemansoFunesto:hover {text-decoration:none;} 
+a.tooltipRemansoFunesto span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipRemansoFunesto:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
+
+a.tooltipTorreDeComando {outline:none; }
+a.tooltipTorreDeComando:hover {text-decoration:none;} 
+a.tooltipTorreDeComando span {
+    z-index: 1;
+    display: none;
+    border-radius: 5%;
+    left: 65%;
+    top: 35%;
+}
+a.tooltipTorreDeComando:hover span{
+    display:inline; 
+    position:absolute; 
+    border-radius: 5%;
+    border:2px solid #FFF;
+}
